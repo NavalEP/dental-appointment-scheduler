@@ -1,5 +1,5 @@
 import asyncio
-from playwright.async_api import async_playwright, TimeoutError, Error as PlaywrightError
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 import logging
 from datetime import datetime, timedelta
 import os
