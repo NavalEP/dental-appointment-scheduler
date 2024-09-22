@@ -51,6 +51,41 @@ python main.py
 
 You can modify the `main()` function in the script to customize the patient type, appointment type, and date preference.
 
+
+### Example Output
+
+When you run the script, you'll see debug and info logs, followed by the available appointment slots. Here's an example of what the output might look like:
+
+```
+2024-09-23 03:18:44,612 - DEBUG - Initializing browser
+2024-09-23 03:18:53,053 - INFO - Browser initialized
+2024-09-23 03:18:53,054 - DEBUG - Navigating to https://onlinebooking.mydentistlink.com/f0398585-a097-4b03-9313-83f79da43804/dafb6490-5320-4145-bf16-8176a195e379
+2024-09-23 03:19:02,027 - INFO - Successfully navigated to scheduling page: https://onlinebooking.mydentistlink.com/f0398585-a097-4b03-9313-83f79da43804/dafb6490-5320-4145-bf16-8176a195e379
+2024-09-23 03:19:02,029 - DEBUG - Selecting patient type: New Patient
+2024-09-23 03:19:02,146 - INFO - Selected patient type: New Patient
+2024-09-23 03:19:02,205 - INFO - Clicked on Continue button after selecting patient type
+2024-09-23 03:19:02,223 - DEBUG - Selecting appointment type: New appointment
+2024-09-23 03:19:06,374 - INFO - Selected appointment type: New appointment
+2024-09-23 03:19:06,378 - DEBUG - Getting available slots for date: 2024-09-25
+2024-09-23 03:19:06,562 - INFO - Available slots for 2024-09-25: [{'date': '2024-09-25', 'time': '2:00 PM', 'datetime': '2024-09-24T14:00'}, {'date': '2024-09-25', 'time': '3:30 PM', 'datetime': '2024-09-25T15:30'}, ...]
+2024-09-23 03:19:06,563 - DEBUG - Closing browser
+2024-09-23 03:19:06,931 - INFO - Browser closed
+
+Available slots:
+[
+  {'date': '2024-09-25', 'time': '2:00 PM', 'datetime': '2024-09-24T14:00'} ,
+  {'date': '2024-09-25', 'time': '3:30 PM', 'datetime': '2024-09-25T15:30'} ,
+  {'date': '2024-09-25', 'time': '4:00 PM', 'datetime': '2024-09-25T16:00'} ,
+  {'date': '2024-09-25', 'time': '8:30 AM', 'datetime': '2024-09-26T08:30'} ,
+  {'date': '2024-09-25', 'time': '9:00 AM', 'datetime': '2024-09-26T09:00'} ,
+  {'date': '2024-09-25', 'time': '10:00 AM', 'datetime': '2024-09-26T10:00'} ,
+  {'date': '2024-09-25', 'time': '1:00 PM', 'datetime': '2024-09-26T13:00'} ,
+]
+```
+
+This output shows the script's progress through the scheduling process and the final list of available appointment slots for the specified date.
+
+
 ## Configuration
 
 The main configurable parameters are:
