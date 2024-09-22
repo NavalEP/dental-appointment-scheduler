@@ -1,0 +1,5 @@
+2024-09-22 02:17:22,558 - INFO - Initializing Playwright and launching browser.
+2024-09-22 02:17:23,470 - INFO - Browser launched successfully.
+2024-09-22 02:17:23,470 - INFO - Navigating to scheduling page: https://onlinebooking.mydentistlink.com/f0398585-a097-4b03-9313-83f79da43804/dafb6490-5320-4145-bf16-8176a195e379
+2024-09-22 02:17:26,970 - INFO - Page loaded successfully.
+2024-09-22 02:17:26,970 - INFO - Selecting appointment type: New appointment
