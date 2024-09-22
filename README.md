@@ -21,7 +21,6 @@ This project automates the process of checking available dental appointment slot
 - Python 3.7+
 - Playwright
 - asyncio
-- datetime (for timedelta)
 
 ## Installation
 
