@@ -21,12 +21,13 @@ This project automates the process of checking available dental appointment slot
 - Python 3.7+
 - Playwright
 - asyncio
+- datetime (for timedelta)
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/NavalEP/dental-appointment-scheduler.git
+   git clone https://github.com/yourusername/dental-appointment-scheduler.git
    cd dental-appointment-scheduler
    ```
 
@@ -53,15 +54,13 @@ You can modify the `main()` function in the script to customize the patient type
 ## Configuration
 
 The main configurable parameters are:
-
 - `patient_type`: "New Patient" or "Returning Patient"
 - `appointment_type`: "New appointment", "Emergency appointment", or "Invisalign consultation"
-- `date_preference`: The day of the month for the desired appointment (e.g., "25")
+- `date_preference`: Specific date for the desired appointment (e.g., "2024-09-25")
 
 ## Error Handling
 
 The script includes robust error handling:
-
 - Timeouts are managed to prevent the script from hanging
 - Screenshots are captured when errors occur for easier debugging
 - A retry mechanism is implemented with exponential backoff
@@ -76,5 +75,7 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
