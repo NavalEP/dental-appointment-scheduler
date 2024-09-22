@@ -78,10 +78,3 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Disclaimer
-
-This script is for educational purposes only. Please ensure you have permission to automate interactions with the target website before using this script.
-
-## Contact
-
-For any queries, please open an issue on this GitHub repository.
