@@ -26,7 +26,7 @@ This project automates the process of checking available dental appointment slot
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/dental-appointment-scheduler.git
+   git clone https://github.com/NavalEP/dental-appointment-scheduler.git
    cd dental-appointment-scheduler
    ```
 
